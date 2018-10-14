@@ -53,7 +53,7 @@ class Home extends Component {
 
       {/* Footer with weather and location data */}
         <footer>
-          put location and weather data here
+          <h1> Location and Weather data here </h1>
         </footer>
 
       </div>
