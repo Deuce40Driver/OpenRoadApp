@@ -3,6 +3,9 @@ import React, { Component } from "react";
 import Button from "../../components/Button";
 import "./Home.css";
 import buttons from "../../buttons.json";
+import { Header, Footer} from "../../components/Layouts";
+
+
 
 
 class Home extends Component {
@@ -38,11 +41,11 @@ class Home extends Component {
       <div>
 
       {/* Header with logo and current time */}
-        <header>
+        <Header>
           <h1>OpenRoad</h1>
           <h3>Roadside Assistance</h3>
           <h4 className = "clock">It is {this.state.clock.toLocaleTimeString()}</h4>
-        </header>
+        </Header>
 
       {/* Buttons are rendered here */}
         {this.state.buttons.map((button) => (
