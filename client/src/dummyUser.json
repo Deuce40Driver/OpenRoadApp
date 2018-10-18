@@ -1,0 +1,31 @@
+{
+  "name":     {
+                "firstName": "Brian",
+                "lastName": "Thornton"
+              },
+
+  "email":    "thorntonbl1@gmail.com",
+
+  "password": "Coding",
+
+  "address":  {
+                "street": "28 Westhampton Way",
+                "city":   "Richmond",
+                "state":  "VA",
+                "zip":  "23236"
+              },
+
+  "auto":     {
+                "year": "2001",
+                "make": "Chevrolet",
+                "model": "Silverado"
+              },
+
+  "insurance":{
+                "company": "State Farm",
+                "policy": "123456789"
+              }
+}
+
+
+
